@@ -62,7 +62,7 @@ class Posts extends Component {
 								list.map((post, i) => {
 									return (
 										<tr key={post.id} style={{background: '#fff', color: '#A1CBFF'}}>
-											<td><img style={{width:64}} src={post.image} /></td>
+											<td><img style={{width:'70'}} src={post.image} /></td>
 											<td style={{textTransform: 'capitalize'}}>{post.caption}</td>
 											<td style={{textTransform: 'capitalize'}}>{post.profile.username}</td>
 										</tr>

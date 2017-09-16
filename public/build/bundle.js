@@ -24549,7 +24549,7 @@ var Posts = function (_Component) {
 									_react2.default.createElement(
 										'td',
 										null,
-										_react2.default.createElement('img', { style: { width: 64 }, src: post.image })
+										_react2.default.createElement('img', { style: { width: '70' }, src: post.image })
 									),
 									_react2.default.createElement(
 										'td',
@@ -41021,7 +41021,7 @@ var Register = function (_Component) {
 				null,
 				_react2.default.createElement(
 					'h2',
-					null,
+					{ style: { color: '#fff' } },
 					'Sign Up'
 				),
 				_react2.default.createElement('input', { onChange: this.updateRegistration.bind(this), id: 'username', type: 'text', placeholder: 'Username' }),
@@ -41030,12 +41030,12 @@ var Register = function (_Component) {
 				_react2.default.createElement('br', null),
 				_react2.default.createElement(
 					'button',
-					{ className: 'button', onClick: this.submitRegistration.bind(this) },
+					{ className: 'button special small', style: { borderColor: '#fff', background: '#A1CBFF', marginTop: 12, marginLeft: 12, width: 90 + '%', color: '#fff' }, onClick: this.submitRegistration.bind(this) },
 					'Join'
 				),
 				_react2.default.createElement(
 					'button',
-					{ className: 'button', onClick: this.submitLoginCredentials.bind(this) },
+					{ className: 'button special small', style: { borderColor: '#fff', background: '#A1CBFF', marginTop: 12, marginLeft: 12, width: 90 + '%', color: '#fff' }, onClick: this.submitLoginCredentials.bind(this) },
 					'Sign In'
 				)
 			);

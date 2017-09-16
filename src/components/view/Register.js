@@ -53,11 +53,11 @@ class Register extends Component {
 	render() {
 		return (
 			<div>
-				<h2>Sign Up</h2>
+				<h2 style={{color: '#fff'}}>Sign Up</h2>
 				<input onChange={this.updateRegistration.bind(this)} id="username" type="text" placeholder="Username" /><br />
 				<input onChange={this.updateRegistration.bind(this)} id="password" type="password" placeholder="Password" /><br />
-					<button className="button" onClick={this.submitRegistration.bind(this)}>Join</button>
-					<button className="button" onClick={this.submitLoginCredentials.bind(this)}>Sign In</button>
+					<button className="button special small" style={{borderColor: '#fff', background: '#A1CBFF', marginTop:12, marginLeft:12, width:90+'%', color: '#fff'}} onClick={this.submitRegistration.bind(this)}>Join</button>
+					<button className="button special small" style={{borderColor: '#fff', background: '#A1CBFF', marginTop:12, marginLeft:12, width:90+'%', color: '#fff'}} onClick={this.submitLoginCredentials.bind(this)}>Sign In</button>
 
 			</div>
 		)

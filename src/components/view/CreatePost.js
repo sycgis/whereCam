@@ -91,7 +91,7 @@ class CreatePost extends Component {
 					<div className="3u 12u$(small)">
 						<Dropzone onDrop={this.imageSelected.bind(this)} style={{border:'none', marginTop:12}}>
 							<button className="button special small" style={{borderColor: '#fff', background: '#A1CBFF', color: '#fff'}}>Add Image</button>
-						</Dropzone>					
+						</Dropzone>				
 					</div>
 					<div className="3u 12u$(small)">
 						<button className="button special small" style={{borderColor: '#fff', background: '#A1CBFF', marginTop:12, marginLeft:12, width:90+'%', color: '#fff'}} onClick={this.submitPost.bind(this)}>Submit</button>
