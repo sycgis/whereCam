@@ -4,7 +4,7 @@ whereCam is a photo sharing app with geo-searching capability. Users can upload 
 
 ## Technologies Used
 
-React, Redux, Node, Express, MongoDB, mLab, Google Maps, Cloudinary (image hosting)
+ReactJS, Redux, Node, Express, MongoDB, mLab, Google Maps, Cloudinary (image hosting)
 
 ## Live Demo
 
