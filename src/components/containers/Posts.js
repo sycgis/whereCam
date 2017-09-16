@@ -48,6 +48,8 @@ class Posts extends Component {
 			<div>
 				<CreatePost onCreate={this.submitPost.bind(this)} />
 
+				<div><span style={{color: '#fff', textAlign: 'center'}}><h6 style={{color: '#fff', textAlign: 'center'}}>Drag and Drop the map to view other image posts</h6></span>
+				</div>
 				<div className="table-wrapper">
 					<table className="alt">
 						<thead>

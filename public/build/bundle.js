@@ -24512,6 +24512,19 @@ var Posts = function (_Component) {
 				_react2.default.createElement(_view.CreatePost, { onCreate: this.submitPost.bind(this) }),
 				_react2.default.createElement(
 					'div',
+					null,
+					_react2.default.createElement(
+						'span',
+						{ style: { color: '#fff', textAlign: 'center' } },
+						_react2.default.createElement(
+							'h6',
+							{ style: { color: '#fff', textAlign: 'center' } },
+							'Drag and Drop the map to view other image posts'
+						)
+					)
+				),
+				_react2.default.createElement(
+					'div',
 					{ className: 'table-wrapper' },
 					_react2.default.createElement(
 						'table',
