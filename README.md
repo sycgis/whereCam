@@ -8,5 +8,5 @@ React, Redux, Node, Express, MongoDB, mLab, Google Maps, Cloudinary (image hosti
 
 ## Live Demo
 
-<strong>LINK: </strong>
+<strong>LINK:</strong> https://wherecam.herokuapp.com/
 ![wherecamgif](https://user-images.githubusercontent.com/24254780/30510554-64179fc2-9a94-11e7-97ad-d2a5e426d081.gif)
